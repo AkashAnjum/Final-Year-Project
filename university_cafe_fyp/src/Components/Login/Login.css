@@ -1,0 +1,19 @@
+
+.login{
+     background-color: rgb(116, 116, 116);
+     max-width: 80%;
+     width: auto;
+     padding: 15px 30px;
+     text-align: center;
+     margin-left: 10%;
+     height: 100%;
+     border-radius: 30px;
+}
+.signup{
+    color: lavender;
+}
+.signup:hover{
+    color: lightgray;
+}
+
+

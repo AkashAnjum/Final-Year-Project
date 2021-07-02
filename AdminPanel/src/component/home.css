@@ -1,0 +1,289 @@
+Text{
+    height: 130;
+    border: 4px;
+    border-color: brown;
+    
+}
+.adj{ 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.linked{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    color: white;
+    padding:3px;
+    margin-bottom:4px;
+    border-radius:5;  
+    text-decoration: none; 
+}
+.linked:hover {
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+    background:linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+.linked1{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    color: white;
+    margin-top: 14px;
+    border-radius:5px;  
+    padding: 5px;
+    text-align: center; 
+}
+.linked1:hover {
+    color:black;
+    margin-top: 14px;
+    border-radius:5px;  
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    background:linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+.forpadding{
+    padding: 7px;
+    
+    
+    
+}
+.forHome{
+  height: 87vh;
+  color: black;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+.forHomeCenter1{
+  height: 87vh;
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  /* align-items: center; */
+ justify-content: center;
+}
+.loginform{
+  color: black;
+}
+.forHomeCenter2{
+  height: 100%;
+  color: rgb(146, 140, 140);
+  display: flex;
+ justify-content: center;
+}
+
+.forHomeCenter{
+  height: auto;
+
+    display: flex;
+
+    justify-content: center;
+}
+.linkhome{
+  margin: 2px;
+  width: 80px;
+  height: 35px;
+  text-align: center;
+}
+
+.text{
+  width: 100%;
+  text-shadow: 2px 2px 5px red;
+}
+
+.bgg{
+    background-color: white;
+  }
+.forButtom{
+    border-radius: 30px;
+    margin-bottom: 7px;
+}
+ 
+  
+  /* test
+   */
+
+  .Adddepart{
+    font-size: 0.975em;
+    display: flex;
+   justify-content: center;
+   
+  }
+  
+  .Adddepart2{
+    width: 90%;
+    
+    margin-top: -10px;
+    
+  }
+ 
+  .home{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    
+    background: rgb(238, 91, 46) ;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+  }
+  .home:hover{
+    text-decoration: none;
+    color: black;
+    background: rgb(238, 91, 46) ; 
+  }
+  
+  .decoration1{
+    text-decoration: none;
+    color:white;
+  }
+  .decoration1:hover{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .AddIcon{
+    margin-right: 5px;
+  }
+  .opt{
+    color: black;
+    
+  }
+  .gender{
+    margin-left: 15px;
+   
+  }
+  .gender1{
+    margin-left: 5px;
+   
+  }
+  .tdd{
+    width: 500px;
+  }
+  .button{
+    padding: 7px;
+    border-radius: 8px;
+  }
+  .icon{
+   color: rgb(175, 10, 10);
+  }
+  .icon1{
+    color:  #11998e;
+
+  }
+  .fee{
+    display: flex;
+  }
+  .fee1{
+    width: 75%;
+    color:  rgb(238, 91, 46);
+  }
+  .His{
+    color:  rgb(238, 91, 46);
+    font-size: 14px;
+  
+  }
+
+  .his{
+      display: flex;
+  }
+  .his0{
+    width: 35%;
+  }
+  .his1{
+    width: 50%;
+  }
+  .his2{
+    padding-left: 4px;
+    width: 25%;
+  }
+  .TDwidth{
+    width: 40px;
+  }
+  .editIcon{
+    padding: 4px;
+    background: white;
+    width: 30px;
+    border-top-left-radius:7px ;
+  }
+  .bism{
+    color:  #11998e;
+    border: 2px;
+    font-size: large;
+    font-weight: bold;
+    font-size: 0.975em;
+    
+  }
+  .deleteIcon{
+    padding: 2px;
+    width: 30px;
+    background:white;
+    border-bottom-right-radius:7px ;
+  }
+  .thead{
+    color: black;
+    font-size: 1.275em;
+    background-color:  white;
+  }
+  .cardHead{
+    color:  rgb(238, 91, 46);
+  
+  }
+  .editinternee{
+    width: 300px;
+  }
+  .overAll{
+      display: flex;
+  }
+  .maintitle{
+    color: darkslategray ;
+    border: 2px;
+    font-size: large;
+    font-weight: bold;
+    font-size: 0.975em;
+    text-shadow: 1px 1px 1px white;
+      
+  }
+  .link{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    color: white;
+    padding: 3px;
+    width:90px;
+    margin-Bottom: 4px;
+    
+    text-Align:center;
+    border-Radius: 5px;
+    cursor: pointer;
+    
+}
+.link:hover{
+    color:black;
+}
+
+.managepopup{
+  width: 100%;
+  padding: 15px;
+
+}
+.popup-wrapper {
+  width: 100%;
+}
+.popup-wrapper > * {
+  width: 50%;
+}
+.images{
+  width: 80px;
+  height: 80px;
+ border-radius: 50%;
+ }
+ .images:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .subimages{
+  width: 60px;
+  height: 60px;
+ border-radius: 50%;
+ }
+ .subimages:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }

@@ -1,0 +1,51 @@
+
+
+.btnlink{
+  
+  font-size: 15px;
+  padding: 8px 5px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.btnlink:hover{
+  background-color: rgb(232, 216, 216);
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.active_class_btnlink{
+
+  border-bottom: solid 2px rgb(154, 147, 248);
+  color: rgb(228, 228, 228);
+
+}
+
+
+
+.link {
+    font-size: 15px;
+    padding: 8px 5px;
+    text-decoration: none;
+    color: rgb(24, 0, 0);
+    margin: 5px 15px;
+  }
+  .link:hover{
+    background-color: rgb(223, 220, 220);
+    padding: 8px 10px;
+    border-radius: 6px;
+  }
+
+  .active_class{
+    border-bottom: solid 2px rgb(7, 0, 109);
+    color: rgb(31, 83, 255);
+  }
+
+  .nav_logo{
+    background-color: rgb(4, 5, 7);
+    color: white;
+  }
+  .nav_logo:hover{
+    background-color: black;
+    color: wheat;
+  }

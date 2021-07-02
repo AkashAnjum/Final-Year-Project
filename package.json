@@ -1,0 +1,36 @@
+{
+  "name": "user-registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd AdminPanel && npm run build && cd university_cafe_fyp && npm run build",
+    "install-npm": "cd AdminPanel && npm install && cd university_cafe_fyp && npm install",
+    "start": "node Server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix AdminPanel && npm run build --prefix AdminPanel && npm install --prefix university_cafe_fyp && npm run build --prefix university_cafe_fyp",
+    "server": "node Server.js npm run heroku-postbuild",
+    "react": "cd AdminPanel && npm start AdminPanel"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "7.6.3"
+  },
+  "author": "Akash Anjum",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.25.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^80.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.2",
+    "nodemon": "^2.0.7",
+    "popper.js": "^1.16.1"
+  }
+}

@@ -1,0 +1,15 @@
+
+
+
+.card_cart{
+    max-width: 28rem;
+}
+
+.button_placeorder{
+    width: min-content;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+

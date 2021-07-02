@@ -1,0 +1,10 @@
+.main-footer {
+  clear: both;
+  bottom: 0;
+  color: rgb(0, 0, 0);
+  background-color: #eeeeee;
+  padding-top: 3rem;
+  position: relative;
+  width: 100%;
+  margin-top: 10%;
+}

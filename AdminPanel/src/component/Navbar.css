@@ -1,0 +1,42 @@
+.navbar{
+    text-align: left;
+}
+.depart1{
+    font-size: 0.875em;
+    text-decoration: none;  
+    margin-top: 2px;
+  }
+  .depart{
+    font-size: 0.85em;
+  }
+  .bism1{
+    color:  white;
+    border: 2px;
+    font-size: large;
+    font-weight: bold;
+    font-size: 0.975em;
+    text-shadow: 2px 2px 4px red;
+  }
+  .bism1:hover{
+    color:  white;
+    border: 2px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-size: 0.975em;
+    text-shadow: 2px 2px 5px red;
+
+  }
+  .decoration{
+    text-decoration: none;
+    color: rgb(175, 170, 170);
+    
+  }
+  .decoration:hover{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .navicons{
+    color: white !important;
+  }

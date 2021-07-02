@@ -1,0 +1,48 @@
+.main-div{
+    text-align: left;
+    color:rgb(0, 0, 0);
+}
+.Image{
+    max-width:200px;
+    max-height: 150px;
+    float: left
+}
+.First{
+    color:black;
+    display: block;
+    float: left;
+    justify-content: space-around;
+}
+
+.badge{
+    background-color: cadetblue;
+    width: 1rem;
+}
+.add{
+    background-color: rgb(90, 90, 196);
+    width: 1rem;
+    border: none;
+    color: white;
+    size: 2px;
+    display: block;
+    float: left;
+    justify-content: space-around;
+}
+.remove{
+    background-color: rgb(221, 64, 64);
+    width: 1rem;
+    border: none;
+    color: white;
+    size: 2px;
+    display: block;
+    float: left;
+    justify-content: space-around;
+}
+.button{
+    float: left;
+}
+
+
+.row_line{
+     display: inline-block;
+}

@@ -1,0 +1,41 @@
+.Router{
+    width: 70%;
+    background: #000;
+}
+.comp{
+    margin-top: 55px;
+    text-align: left;
+    padding: 10px;
+}
+.Add{
+    padding: 10px;
+    height: 100vh;
+    color: white;
+}
+.Add1{
+    width: 48%;
+    margin-right: 7px;
+}
+.error{
+    color: red;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border-color: blue;
+}
+.error1{
+    color:green;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+    background-color:lightgray;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 560px) {
+    .Add1{
+        width: 96%;
+        margin-right: 7px;
+    }
+}
